@@ -22,12 +22,15 @@ The secret string is expected to be the following format
 (furtivevalue1:my-embeded-payload)
 ```
 
+The value of my-embeded-payload is base64 encoded json.
+
 Example:
 
-```(furtivevalue1:eyJiIjoiZ2NwIiwicCI6InNvbGlkLW11c2UtMjAzOTAxIiwibCI6Imdsb2JhbCIsInIiOiJzdGFnaW5nLWtleXJpbmciLCJrIjoia2V5LW51bWJlci1vbmUiLCJjIjoiQ2lRQWtheDU0UGxXQS8zMG5LSnVHaXIvODVTS2lsaS9nZUlzVUJzNkpMcmhEa1lzMERZU1R3RC9qcjFtS2FNdG1HdFhpTVMzVzd2N3ZrUVBHYTVlbitLY3pQSGt5a2hocG9aRHFWYm4vWUNxalc2QWRsMThvbFpyVm9hRmtubWUzVzYzYWlWN2tYVCtveE5uYXpwZ0t4dmlhWGpMS0cwPSJ9)
+```
+(furtivevalue1:eyJiIjoiZ2NwIiwicCI6InNvbGlkLW11c2UtMjAzOTAxIiwibCI6Imdsb2JhbCIsInIiOiJzdGFnaW5nLWtleXJpbmciLCJrIjoia2V5LW51bWJlci1vbmUiLCJjIjoiQ2lRQWtheDU0UGxXQS8zMG5LSnVHaXIvODVTS2lsaS9nZUlzVUJzNkpMcmhEa1lzMERZU1R3RC9qcjFtS2FNdG1HdFhpTVMzVzd2N3ZrUVBHYTVlbitLY3pQSGt5a2hocG9aRHFWYm4vWUNxalc2QWRsMThvbFpyVm9hRmtubWUzVzYzYWlWN2tYVCtveE5uYXpwZ0t4dmlhWGpMS0cwPSJ9)
 ```
 
-The value of my-embeded-payload is base64 encoded json.
+
 
 ### Embeded payload
 
@@ -54,6 +57,7 @@ k | The key f the Google Cloud KMS to use to decrypt the cipher text
 c | The cipher text to decrypt
 
 Example:
+```
 {
    "b":"gcp",
    "p":"solid-muse-203901",
