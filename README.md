@@ -39,11 +39,11 @@ The base64 encoded json is the following format
 ```
 {
     "b": "" 
-	"p": ""
-	"l": ""
-	"r": ""
-	"k": ""
-	"c": ""
+    "p": ""
+    "l": ""
+    "r": ""
+    "k": ""
+    "c": ""
 }
 ```
 
